@@ -1,0 +1,21 @@
+{
+    "name": "vendorname/packagename",
+    "description": "Description of your package",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Group12",
+            "email": "visal.nls2003@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.4",
+        "illuminate/support": "^8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "VendorName\\PackageName\\": "src/"
+        }
+    }
+}
